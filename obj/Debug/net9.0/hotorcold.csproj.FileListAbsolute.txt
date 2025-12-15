@@ -1,0 +1,15 @@
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\bin\Debug\net9.0\hotorcold.exe
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\bin\Debug\net9.0\hotorcold.deps.json
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\bin\Debug\net9.0\hotorcold.runtimeconfig.json
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\bin\Debug\net9.0\hotorcold.dll
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\bin\Debug\net9.0\hotorcold.pdb
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\hotorcold.GeneratedMSBuildEditorConfig.editorconfig
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\hotorcold.AssemblyInfoInputs.cache
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\hotorcold.AssemblyInfo.cs
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\hotorcold.csproj.CoreCompileInputs.cache
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\hotorcold.sourcelink.json
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\hotorcold.dll
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\refint\hotorcold.dll
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\hotorcold.pdb
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\hotorcold.genruntimeconfig.cache
+D:\webbutveckling termin 5\C_sharp_DT071G\projekt\hotorcold\obj\Debug\net9.0\ref\hotorcold.dll
