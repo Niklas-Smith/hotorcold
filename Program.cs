@@ -30,11 +30,79 @@ switch(keyPress)
 {
  case '1':
 
+Random randomNumber = new();
+int rightNumber = randomNumber.Next(1, 100);
+int i = 0;
+
+
+while(i < 10)
+ {   
+Write("Guess number bettwen 1 and 100:  ");
+string? input = ReadLine();
+
+
+if(int.TryParse(input, out int attemp) && attemp>=1 && attemp <=100)  {
+
+i++;
+                
+  int DiffrentBettwenAttempAndAnsver = Math.Abs(attemp - rightNumber);
+
+   if (attemp == rightNumber)
+ {
+                  
+ WriteLine($"You Win it was right number {rightNumber} and it took {i} tries");
+ 
+ return ;
+ 
+ }
+
+ else if (DiffrentBettwenAttempAndAnsver <= 5) 
+ {
+  WriteLine("Verry hot at most 5 number from right number");
+
+
+}
+
+  else if(DiffrentBettwenAttempAndAnsver <=15)
+  {
+      
+  WriteLine("hot at most 15 number from right number");
+
+  }
+                  
+  else if(DiffrentBettwenAttempAndAnsver <=35)
+  {
+      
+  WriteLine("Cold at most 35 number from right number");
+
+  }
+
+       else if(DiffrentBettwenAttempAndAnsver <=50)
+  {
+      
+  WriteLine("Verry Cold at most 50 number from right number");
+
+  }     
+
+  else
+    {
+          WriteLine("Not even Close");        
+          
+  }
+ 
+
+
+  }
+ 
+}    
 
 
 
 
- break; 
+  
+
+
+ break;
 case '2':
 
 break; 
