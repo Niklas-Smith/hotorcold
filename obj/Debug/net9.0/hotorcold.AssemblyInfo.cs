@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hotorcold")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19fd34a03d2b3e24f0a2f2f29d2fbead203dddbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bace51546975ae8298811ecb0b81ecae05fc1513")]
 [assembly: System.Reflection.AssemblyProductAttribute("hotorcold")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hotorcold")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
