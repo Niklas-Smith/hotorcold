@@ -10,6 +10,9 @@ class Program
     static void Main(string[]args ) {
 
 
+   GameAttempts howmanyattemps = new GameAttempts();
+      
+
   while (true)
   {
       // rensar 

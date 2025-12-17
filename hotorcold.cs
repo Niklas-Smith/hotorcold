@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices;
 using System.Text.Json;
 
 namespace hotorcold
@@ -25,6 +26,39 @@ public GameAttempts()
 
 
         }
+public Attempts newAttemp(int addattemp)
+        {
+            
+ Attempts obj = new Attempts();
+ obj.Tries= addattemp;
+ hotorcold.Add(obj);
+ marshal();
+ return obj;
+
+        }
+public int removeAttemp(int index)
+        {
+            hotorcold.RemoveAt(index);
+           marshal();
+        return index;
+
+        }
+        public List<Attempts> getAttemp()
+        {
+            return hotorcold;
+
+
+        }
+
+        private void marshal()
+        {
+            
+         var json = JsonSerializer.Serialize(hotorcold);
+         File.WriteAllText(jsonSave, json);
+
+        }
+
+
 
 
 
