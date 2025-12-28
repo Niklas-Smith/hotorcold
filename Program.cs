@@ -50,7 +50,7 @@ switch(keypress2)
 {
  case '1':
 
-// skapar så man har en varible för ett tal mellan 1 occh 100
+// skapar så man har en varible för ett tal mellan 1 och 100
 Random randomNumber = new();
 int rightNumber = randomNumber.Next(1, 101);
 
