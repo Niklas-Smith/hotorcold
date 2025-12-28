@@ -2,6 +2,7 @@
 using static System.Console;
 
 // projekt hot or cold c# av Niklas Smith, nism2400
+// kurskod dt071g i kursen Programmering i C#.NET 
 
 namespace hotorcold
 {
@@ -16,7 +17,7 @@ class Program
   while (true)
   {
       // rensar 
-      Clear();
+     Clear();
       // gör att cursor är dold.
     CursorVisible = false;
   
@@ -41,7 +42,7 @@ switch(keyPress)
 {
  case '1':
 
-Clear();
+
  WriteLine("1. Spela hot Or cold");
   WriteLine("2. Spela higer or lower");
 int keypress2 = (int)ReadKey(true).Key;
@@ -51,13 +52,14 @@ switch(keypress2)
 
 // skapar så man har en varible för ett tal mellan 1 occh 100
 Random randomNumber = new();
-int rightNumber = randomNumber.Next(1, 100);
+int rightNumber = randomNumber.Next(1, 101);
 
 // börja i på 0 (för att kolla på hur många gånger man gissat)
 int i = 0;
 
+
 // så läng while loop är under 10 så forstätt att fråga Guess number bettwen 1 and 100: 
-while(i < 10)
+while(i < 10  )
  {   
 Write("Guess number bettwen 1 and 100:  ");
 
@@ -76,11 +78,15 @@ i++;
    if (attemp == rightNumber)
  {
                   
- WriteLine($"You Win it was right number {rightNumber} and it took {i} tries");
+ 
 
  // Spara till json filen hur många försök du behövede för gissa rätt
  howmanyattemps.newAttemp(i);
- return ;
+ WriteLine($"You Win it was right number {rightNumber} and it took {i} tries");
+ WriteLine("Press a key to go back to meny");
+ // gör så om gissa rätt number så vänta till keypress för gå vidare till meny.
+ ReadKey();
+break;
  
  }
 
@@ -128,9 +134,9 @@ i++;
   break;
 case '2':
 
-  // skapar så man har en varible för ett tal mellan 1 occh 1000
+  // skapar så man har en varible för ett tal mellan 1 och 1000
 Random randomNumber2 = new();
-int rightNumber2 = randomNumber2.Next(1, 1000);
+int rightNumber2 = randomNumber2.Next(1, 1001);
 // börja y på 0 (för att kolla på hur många gånger man gissat)
 int y = 0;
 while(y < 15)
@@ -153,7 +159,10 @@ y++;
 
  // Spara till json filen hur många försök du behövede för gissa rätt
  howmanyattemps.newAttemp(y);
- return ;
+ WriteLine("Press a key to go back to meny");
+ // gör så om gissa rätt number vänta för keypress för gå vidare till meny
+ ReadKey();
+break;
  
  }
 // Om ditt nummber är störe än rätt nummer gör detta.
